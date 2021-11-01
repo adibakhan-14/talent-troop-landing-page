@@ -1,0 +1,30 @@
+.img-fluid {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/assets/BG.png");
+}
+
+.button-shape {
+    background-color: #F18600;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+#center {
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+.nav-button {
+    color: black;
+    padding-right: 60px;
+    font-size: 15px;
+    font-family: 'Mantrope';
+}
