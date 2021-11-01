@@ -1,0 +1,26 @@
+/* admin-panel-banner.png */
+
+.banner {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/assets/admin-panel-banner.png");
+}
+
+h1 {
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Manrope';
+    color: #0C2039;
+    padding: 5px 10px 0px 10px;
+    font-weight: 100;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Mantrope';
+    color: #0C2039;
+    padding: 5px 10px 0px 10px;
+}

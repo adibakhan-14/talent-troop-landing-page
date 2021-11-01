@@ -8,6 +8,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ApplicantInfoComponent } from './pages/applicant-info/applicant-info.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { AdminPanelComponent } from './pages/admin-panel/admin-panel.component';
+import { ExamPortalComponent } from './pages/exam-portal/exam-portal.component';
+import { FeaturesComponent } from './pages/features/features.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +19,9 @@ import { ApplicantInfoComponent } from './pages/applicant-info/applicant-info.co
     HomeComponent,
     ServicesComponent,
     ApplicantInfoComponent,
+    AdminPanelComponent,
+    ExamPortalComponent,
+    FeaturesComponent,
     
     
   ],
@@ -22,7 +29,9 @@ import { ApplicantInfoComponent } from './pages/applicant-info/applicant-info.co
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule, 
+    SharedModule,
+    FlexLayoutModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
