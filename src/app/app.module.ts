@@ -12,6 +12,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AdminPanelComponent } from './pages/admin-panel/admin-panel.component';
 import { ExamPortalComponent } from './pages/exam-portal/exam-portal.component';
 import { FeaturesComponent } from './pages/features/features.component';
+import { FormComponent } from './pages/form/form.component';
+import { FooterComponent } from './pages/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { FeaturesComponent } from './pages/features/features.component';
     AdminPanelComponent,
     ExamPortalComponent,
     FeaturesComponent,
+    FormComponent,
+    FooterComponent,
     
     
   ],
